@@ -45,7 +45,7 @@ class FbxImporterPanel(Panel):
         row = layout.box()
         row.label("3)Align all models")
         
-        row.
+        row.operator("object.allign_objects")
 
 class BatchFbxImport(Operator):
     bl_idname = "object.batch_fbx_import"
